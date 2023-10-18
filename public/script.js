@@ -6,7 +6,7 @@ async function postToTwitter() {
     const tweetText = 'Check out this news article: https://www.lokshahi.com/news/lokshahi-politics/ashish-shelar-on-uddhav-thackeray-5';
 
     try {
-        const response = await fetch('https://data-main.onrender.com/post-to-twitter', {
+        const response = await fetch('https://data-main.onrender.com', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
